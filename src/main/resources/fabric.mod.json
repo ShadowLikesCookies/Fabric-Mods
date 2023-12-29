@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "learningmod",
+	"version": "${version}",
+	"name": "LearningMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/learningmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shadow.learningmod.LearningMod"
+		],
+		"client": [
+			"net.shadow.learningmod.LearningModClient"
+		],
+		"fabric-datagen": [
+			"net.shadow.learningmod.LearningModDataGenerator"
+		]
+	},
+	"mixins": [
+		"learningmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
