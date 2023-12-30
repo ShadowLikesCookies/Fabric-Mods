@@ -1,0 +1,15 @@
+{
+  "item.learningmod.ruby": "Ruby",
+  "item.learningmod.raw_ruby": "Raw Ruby",
+
+  "block.learningmod.ruby_block": "Ruby Block",
+  "block.learningmod.raw_ruby_block": "Raw Ruby Block",
+
+  "block.learningmod.ruby_ore": "Ruby Ore",
+  "block.learningmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.learningmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.learningmod.end_ruby_ore": "EndRuby Ore",
+
+  "itemgroup.ruby": "Ruby Group"
+}

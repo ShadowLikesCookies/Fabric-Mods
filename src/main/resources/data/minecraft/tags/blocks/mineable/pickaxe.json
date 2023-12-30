@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "learningmod:ruby_block",
+    "learningmod:raw_ruby_block"
+  ]
+}
