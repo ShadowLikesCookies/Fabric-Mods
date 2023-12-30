@@ -18,5 +18,6 @@
 
   "itemgroup.ruby": "Ruby Group",
   "itemgroup.metal": "Metal Group",
-  "itemgroup.modfood": "Custom Foods Group"
+  "itemgroup.modfood": "Custom Foods Group",
+  "ooltip.learningmod.metal_detector.tooltip": "Finds Valuables Underground"
 }
