@@ -2,6 +2,8 @@
   "item.learningmod.ruby": "Ruby",
   "item.learningmod.raw_ruby": "Raw Ruby",
 
+  "item.learningmod.ruby_staff": "Ruby Staff",
+
   "block.learningmod.ruby_block": "Ruby Block",
   "block.learningmod.raw_ruby_block": "Raw Ruby Block",
 
@@ -15,6 +17,16 @@
   "item.learningmod.sound_block": "Sound Block",
   "item.learningmod.tomato": "Tomato",
   "item.learningmod.coal_reusable": "Reusable Coal",
+  "item.learningmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.learningmod.ruby_axe": "Ruby Axe",
+  "item.learningmod.ruby_sword": "Ruby Sword",
+  "item.learningmod.ruby_shovel": "Ruby Shovel",
+  "item.learningmod.ruby_hoe": "Ruby Hoe",
+
+  "item.learningmod.ruby_helmet": "Ruby Helmet",
+  "item.learningmod.ruby_chestplate": "Ruby Chestplate",
+  "item.learningmod.ruby_leggings": "Ruby Leggings",
+  "item.learningmod.ruby_boots": "Ruby Boots",
 
   "itemgroup.ruby": "Ruby Group",
   "itemgroup.metal": "Metal Group",

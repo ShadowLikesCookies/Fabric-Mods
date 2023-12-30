@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.shadow.learningmod.block.ModBlocks;
 import net.shadow.learningmod.item.ModItems;
 
@@ -27,9 +28,21 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_STAFF, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_REUSABLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);;
+        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
+
     }
 }
