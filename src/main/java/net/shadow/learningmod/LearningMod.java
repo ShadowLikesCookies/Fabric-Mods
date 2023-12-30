@@ -2,6 +2,7 @@ package net.shadow.learningmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.shadow.learningmod.block.ModBlocks;
 import net.shadow.learningmod.item.ModItemGroups;
 import net.shadow.learningmod.item.ModItems;
@@ -19,6 +20,7 @@ public class LearningMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_REUSABLE, 30);
 
 
 	}

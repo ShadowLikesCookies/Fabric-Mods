@@ -10,7 +10,13 @@
 
   "block.learningmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.learningmod.end_ruby_ore": "End Ruby Ore",
+
   "item.learningmod.metal_detector": "Metal Detector",
+  "item.learningmod.sound_block": "Sound Block",
+  "item.learningmod.tomato": "Tomato",
+  "item.learningmod.coal_reusable": "Reusable Coal",
+
   "itemgroup.ruby": "Ruby Group",
-  "itemgroup.metal": "Metal Group"
+  "itemgroup.metal": "Metal Group",
+  "itemgroup.modfood": "Custom Foods Group"
 }

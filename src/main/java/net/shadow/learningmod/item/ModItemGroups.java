@@ -38,6 +38,13 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());
+    public static final ItemGroup MODFOOD_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(LearningMod.MOD_ID, "tomato"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modfood"))
+                    .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.TOMATO);
+
+                    }).build());
 
 
     public static void registerItemGroups() {
