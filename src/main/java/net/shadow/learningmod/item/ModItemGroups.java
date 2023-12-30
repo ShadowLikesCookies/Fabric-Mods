@@ -21,8 +21,21 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
+
+
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_RUBY_ORE);
+
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+
+                    }).build());
+    public static final ItemGroup METAL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(LearningMod.MOD_ID, "metal_detector"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.metal"))
+                    .icon(() -> new ItemStack(ModItems.METAL_DETECTOR)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());
 
