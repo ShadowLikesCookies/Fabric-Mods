@@ -1,0 +1,9 @@
+// 1.20.4	2024-03-17T19:05:16.7120313	LearningMod/Block Loot Tables
+9cbd6a33278098d56bf8d40c651dbac106e55132 data\learningmod\loot_tables\blocks\tomato_crop.json
+55199e06df2c6fc52940886dea088b5a7d9082fa data\learningmod\loot_tables\blocks\nether_ruby_ore.json
+6882a9f720ec56c90a26755cd417b271e9e32c97 data\learningmod\loot_tables\blocks\end_ruby_ore.json
+b11505534880b47c16a40c97c003940b37710320 data\learningmod\loot_tables\blocks\ruby_block.json
+618cea5280a4757150d0bf9ccf779b8585f65168 data\learningmod\loot_tables\blocks\sound_block.json
+82543b8524eea96535d55c75bc1091d6d74635b7 data\learningmod\loot_tables\blocks\raw_ruby_block.json
+7c2c978639160e8d1d2f550f8729afb645b42f20 data\learningmod\loot_tables\blocks\ruby_ore.json
+59729d60abaf6bf896f8926633aace6c36318532 data\learningmod\loot_tables\blocks\deepslate_ruby_ore.json

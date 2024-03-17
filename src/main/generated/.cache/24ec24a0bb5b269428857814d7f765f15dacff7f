@@ -1,0 +1,7 @@
+// 1.20.4	2024-03-17T19:05:16.7130493	LearningMod/Tags for minecraft:block
+6e6d1016b21cf4eff5020457165cfe1c396b9d77 data\minecraft\tags\blocks\needs_iron_tool.json
+2f3dbe5c87d5f1af2b3e7877e08c5a069fe1e492 data\fabric\tags\blocks\needs_tool_level_4.json
+a705d0dc0c76693a7923786d68c74054f0b6cf06 data\minecraft\tags\blocks\mineable\pickaxe.json
+35bf3aae93d3c8a078263036fe44d98152eee995 data\minecraft\tags\blocks\needs_stone_tool.json
+ade0af0547d18c5c6398f0c581f3e4f9afbca06d data\learningmod\tags\blocks\metal_detector_detectable_blocks.json
+4e882d8ec28d3652b865ba7a5d07fbf9b2fd53d3 data\minecraft\tags\blocks\needs_diamond_tool.json
