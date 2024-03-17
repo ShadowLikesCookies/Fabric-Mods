@@ -4,8 +4,10 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.shadow.learningmod.block.ModBlocks;
+import net.shadow.learningmod.block.entity.ModBlockEntities;
 import net.shadow.learningmod.item.ModItemGroups;
 import net.shadow.learningmod.item.ModItems;
+import net.shadow.learningmod.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,8 +19,9 @@ public class LearningMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
+		ModBlockEntities.registerBlockEntities();
 		ModItems.registerModItems();
+		ModScreenHandlers.registerScreenHandlers();
 		ModBlocks.registerModBlocks();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_REUSABLE, 30);
 

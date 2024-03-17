@@ -30,10 +30,11 @@ public class ModItemGroups {
 
 
 
+
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
-
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_RUBY_ORE);
@@ -54,6 +55,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modfood"))
                     .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEED);
 
                     }).build());
 

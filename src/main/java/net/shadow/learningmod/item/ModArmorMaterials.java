@@ -10,8 +10,8 @@ import net.shadow.learningmod.LearningMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    RUBY("Ruby", 25, new int[] {10, 10, 10, 10}, 130, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.3f, () -> Ingredient.ofItems(ModItems.RUBY))
-    ;
+    RUBY("ruby", 25, new int[] { 3, 8, 6, 3 }, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -22,9 +22,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = {11, 16, 15 , 13};
+    private static final int[] BASE_DURABILITY = { 11, 16, 15, 13 };
 
-    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound,
+                      float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -62,7 +63,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return LearningMod.MOD_ID + ":" + this.name ;
+        return LearningMod.MOD_ID + ":" + this.name;
     }
 
     @Override

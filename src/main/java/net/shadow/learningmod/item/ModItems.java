@@ -7,7 +7,9 @@ import net.shadow.learningmod.LearningMod;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.shadow.learningmod.block.ModBlocks;
 import net.shadow.learningmod.item.custom.MetalDetectorItem;
+import net.shadow.learningmod.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -16,6 +18,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEED = registerItem("tomato_seed",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
     public static final Item RUBY_STAFF = registerItem("ruby_staff",
@@ -32,7 +36,7 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, -5, 2f, new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
